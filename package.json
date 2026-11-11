@@ -1,7 +1,6 @@
 {
   "name": "@local/system-monitor",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -14,7 +13,9 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
